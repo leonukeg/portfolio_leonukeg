@@ -7,8 +7,10 @@ from portfolioleonukeg.views.projects import projects
 def index() -> rx.Component:
     return rx.box(
         navbar(),
+        rx.text("esta es una prueba desde linux"),
         about(),
-        projects()
+        projects(),
+        
         
     )
     
