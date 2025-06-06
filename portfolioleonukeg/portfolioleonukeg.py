@@ -3,6 +3,7 @@ import portfolioleonukeg.styles.styles as styles
 from portfolioleonukeg.views.navbar  import navbar
 from portfolioleonukeg.views.about import about
 from portfolioleonukeg.views.projects import projects
+from portfolioleonukeg.views.footer import footer
 
 def index() -> rx.Component:
     return rx.box(
@@ -10,7 +11,7 @@ def index() -> rx.Component:
         rx.text("esta es una prueba desde linux"),
         about(),
         projects(),
-        
+        footer(),
         
     )
     
