@@ -1,13 +1,15 @@
 import reflex as rx
+import portfolioleonukeg.constants as constants
 from portfolioleonukeg.styles.styles import Size
 from portfolioleonukeg.styles.colors import Color
 from portfolioleonukeg.components.project_card import project_card
 
+
 def projects() -> rx.Component:
     projects = [
-        ("projects.jpg", "Projects Alpha", "Django task manager", "Django, PostgreSQL"),
-        ("projects.jpg","Project Beta", "Flask REST API", "Flask, SQLite"),
-        ("projects.jpg", "Projects Gamma", "Django task manager", "Django, PostgreSQL")
+        ("alien_invasion.jpg", "Projects Alpha", "'Alien Invasion' project Python Crash Course book.", "Python PyGame", "https://github.com/leonukeg/alien_invasion"),
+        ("projects.jpg","Project Beta", "Flask REST API", "Flask, SQLite","/"),
+        ("projects.jpg", "Projects Gamma", "Django task manager", "Django, PostgreSQL","/"),
         ]
     
     return rx.grid(
