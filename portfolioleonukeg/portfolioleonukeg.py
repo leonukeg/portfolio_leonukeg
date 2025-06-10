@@ -4,12 +4,14 @@ from portfolioleonukeg.views.navbar  import navbar
 from portfolioleonukeg.views.about import about
 from portfolioleonukeg.views.projects import projects
 from portfolioleonukeg.views.footer import footer
+from portfolioleonukeg.views.skills import skills
 
 def index() -> rx.Component:
     return rx.box(
         navbar(),
         about(),
-        projects(),
+        #projects(),
+        skills(),
         footer(),
         
     )

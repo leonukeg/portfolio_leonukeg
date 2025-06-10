@@ -18,8 +18,11 @@ def footer() -> rx.Component:
             rx.vstack(
                 rx.image(src="logo_fl.png", alt="logotipo leonukeg", width= "3.5em", height = "2.5em"),
             ), 
-            width="100%"
+            width="100%",
+            
         ),
+        
+    
         margin_top= Size.DEFAULT.value,
         background_color = Color.PETROL.value,
         padding_x=Size.BIG.value,
