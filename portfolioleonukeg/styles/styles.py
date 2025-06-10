@@ -5,6 +5,7 @@ from .colors import Color
 
 class Size(Enum):
     SMALL = "0.5em"
+    M_SMALL = "0.75em"
     DEFAULT = "1em"
     MEDIUM = "1.5em"
     BIG = "2em"
