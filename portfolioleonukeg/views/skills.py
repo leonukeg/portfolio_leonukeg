@@ -11,14 +11,28 @@ def skills() -> rx.Component:
                 rx.text("Skills", color=Color.PETROL.value, font_size=Size.MEDIUM.value),
 
                 rx.hstack(
-                    badge("Python"),
-                    badge("Reflex"),
-                    badge("Pygame"),
-                    badge("Wordpress"),
-                    badge("Photoshop"),
-                    badge("Illustrator")
+                    badge("Python",Color.PETROL.value),
+                    badge("Reflex",Color.PETROL.value),
+                    badge("Pygame",Color.PETROL.value),
+                    badge("Wordpress",Color.PETROL.value),
+
                 ),
-                
+                rx.hstack(
+                    badge("Photoshop", Color.ORANGE.value),
+                    badge("Illustrator", Color.ORANGE.value),
+                    badge("Adobe XD", Color.ORANGE.value),
+
+                ),
+
+                rx.hstack(
+                    badge("Excel", Color.PETROL.value),
+                    badge("Word", Color.PETROL.value),
+                    badge("Linux", Color.PETROL.value),
+                    badge("Windows", Color.PETROL.value),
+                    badge("Git", Color.PETROL.value),
+                ),
+
+
                 padding_x=Size.DEFAULT.value,
                 padding_y=Size.DEFAULT.value,
             ),

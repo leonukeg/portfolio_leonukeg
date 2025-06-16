@@ -8,8 +8,8 @@ from portfolioleonukeg.components.project_card import project_card
 def projects() -> rx.Component:
     projects = [
         ("alien_invasion.jpg", "Project Alpha", "'Alien Invasion' project Python Crash Course book.", "Python PyGame", constants.ALIEN_INVASION),
-        ("projects.jpg","Project Beta", "...", "...","#"),
-        ("projects.jpg", "Projects Gamma","...", "...","#"),
+        ("slyshaka.png","Project Beta", "slyshaka.com, tshirt store.", "Wordpress Elementor woocommerce",constants.SLYSHAKA),
+        ("projects.jpg", "Projects Gamma","Big data, soccer", "anaconda... ","#"),
         ]
     
     return rx.grid(
