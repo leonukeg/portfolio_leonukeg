@@ -14,6 +14,10 @@ class Size(Enum):
     M_LARGE = "10em"
     X_LARGE = "16em"
     XX_LARGE = "25em"
+    
+    SCREEN_SIZE = "60vw"
+    
+
 
 
 STYLESHEET = [

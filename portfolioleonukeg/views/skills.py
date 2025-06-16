@@ -11,27 +11,24 @@ def skills() -> rx.Component:
                 rx.text("Skills", color=Color.PETROL.value, font_size=Size.MEDIUM.value),
 
                 rx.hstack(
-                    badge("Python",Color.PETROL.value),
-                    badge("Reflex",Color.PETROL.value),
-                    badge("Pygame",Color.PETROL.value),
-                    badge("Wordpress",Color.PETROL.value),
-
-                ),
-                rx.hstack(
-                    badge("Photoshop", Color.ORANGE.value),
-                    badge("Illustrator", Color.ORANGE.value),
-                    badge("Adobe XD", Color.ORANGE.value),
+                    badge("Python",Color.PETROL.value, Color.WITHE.value),
+                    badge("Reflex",Color.PETROL.value, Color.WITHE.value),
+                    badge("Pygame",Color.PETROL.value, Color.WITHE.value),
+                    badge("Wordpress",Color.PETROL.value, Color.WITHE.value),
+                    badge("Windows",Color.PETROL.value, Color.WITHE.value),
+                    badge("Linux",Color.PETROL.value, Color.WITHE.value),
+                    badge("Git",Color.PETROL.value, Color.WITHE.value),
 
                 ),
 
                 rx.hstack(
-                    badge("Excel", Color.PETROL.value),
-                    badge("Word", Color.PETROL.value),
-                    badge("Linux", Color.PETROL.value),
-                    badge("Windows", Color.PETROL.value),
-                    badge("Git", Color.PETROL.value),
-                ),
+                    badge("Photoshop",Color.ORANGE.value, Color.BLACK.value),
+                    badge("Illustrator",Color.ORANGE.value, Color.BLACK.value),
+                    badge("Adobe XD",Color.ORANGE.value, Color.BLACK.value),
+                    badge("Excel",Color.ORANGE.value, Color.BLACK.value),
+                    badge("Word",Color.ORANGE.value, Color.BLACK.value),
 
+                ),
 
                 padding_x=Size.DEFAULT.value,
                 padding_y=Size.DEFAULT.value,
@@ -43,5 +40,5 @@ def skills() -> rx.Component:
             max_width="1000px",
             margin="auto",
         ),
-        padding=Size.VERY_BIG.value,
+        padding=Size.BIG.value,
     )

@@ -6,6 +6,7 @@ from portfolioleonukeg.views.projects import projects
 from portfolioleonukeg.views.footer import footer
 from portfolioleonukeg.views.skills import skills
 from portfolioleonukeg.views.firma import firma
+from portfolioleonukeg.views.contact import contact_form
 
 def index() -> rx.Component:
     return rx.box(
@@ -13,6 +14,7 @@ def index() -> rx.Component:
         about(),
         projects(),
         skills(),
+        contact_form(),
         firma(),
         footer(),
         

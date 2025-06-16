@@ -9,15 +9,12 @@ def footer() -> rx.Component:
         rx.center(
             rx.vstack(
                 rx.text("Portfolio Freddy Leon Romero ", style={"color": Color.BLACK.value, "fontSize": Size.M_SMALL.value}),
-                rx.link("creado con cariño por @leonukeg", href=constants.GIT_HUB_URL, is_external=True, _hover={"color":Color.ORANGE.value}, style={"color": Color.BLACK.value,"fontSize": Size.M_SMALL.value}),
+                rx.link("creado con cariño en Reflex por @leonukeg", href=constants.REFLEX, is_external=True, _hover={"color":Color.ORANGE.value}, style={"color": Color.BLACK.value,"fontSize": Size.M_SMALL.value}),
                 align_items="center",
                 spacing="0",
             
             ),
-            rx.spacer(),
-            rx.vstack(
-                rx.image(src="logo_fl.png", alt="logotipo leonukeg", width= "3.5em", height = "2.5em"),
-            ), 
+            
             width="100%",
             
         ),

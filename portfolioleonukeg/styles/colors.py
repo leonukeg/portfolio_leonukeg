@@ -1,7 +1,7 @@
 from enum import Enum
 
 class Color(Enum):
-    BASE = "#FBFFE4" # Fondo pastel
+    BASE = "#FFE3BB" # Fondo pastel
     BLACK = "#000000" #texto principal
     WITHE = "#ffffff" #Blanco poderoso
     ORANGE = "#FE4F2D" # Acentos (botones, highlights)

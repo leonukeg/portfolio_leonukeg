@@ -16,5 +16,5 @@ def firma() -> rx.Component:
             max_width="1000px",
             margin="auto",
         ),
-        padding=Size.VERY_BIG.value,
+        padding=Size.BIG.value,
     )
