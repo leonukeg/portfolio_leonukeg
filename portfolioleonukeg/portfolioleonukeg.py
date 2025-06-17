@@ -9,6 +9,7 @@ from portfolioleonukeg.views.firma import firma
 from portfolioleonukeg.views.contact import contact_form
 
 def index() -> rx.Component:
+    rx.script("document.documentElement.lang='es"),
     return rx.box(
         navbar(),
         about(),
