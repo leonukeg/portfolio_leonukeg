@@ -3,7 +3,7 @@ python -m venv venv
 pip install reflex     
 reflex init          
 reflex export --frontend-only
-rm -fr public
+rm -fr public #verifica esto
 unzip frontend.zip -d public
 rm -Force frontend.zip
 deactivate
