@@ -33,3 +33,18 @@ BASE_STYLE = {
 }
 
 BOX_SHADOW = f"{Size.SMALL.value} {Size.SMALL.value} {Size.SMALL.value} {Color.GRAY.value}"
+
+INPUT_STYLE = {
+        "color":Color.PETROL.value,
+        "padding": "0.5em",
+        "background": Color.GRAY.value,
+        "_placeholder":{
+            "color":Color.ORANGE.value
+
+        },
+        "_focus": {
+            "color":Color.PETROL.value,
+            "border": f"2px solid Color.ORANGE.value",
+            "background": Color.WITHE.value  # Fondo blanco al enfocar (opcional)
+        },
+    }
